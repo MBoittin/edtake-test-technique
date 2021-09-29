@@ -1,6 +1,6 @@
 <template>
     <div>
-        <ejs-schedule id="Schedule" :group="group" :eventSettings='eventSettings'>
+        <ejs-schedule id="Schedule" :group="group" :eventSettings='eventSettings' height="100%" width="100%">
             <e-views>
                 <e-view option='TimelineDay' startHour='7:00' endHour='20:00'></e-view>
                 <e-view option="TimelineWeek"></e-view>
